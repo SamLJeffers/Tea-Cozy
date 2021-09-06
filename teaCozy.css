@@ -90,17 +90,18 @@ section#teaPictures {
      width: 100%;
      line-height: 65px;
  }
- .downtown {
+ #downtown {
+     width: 300px;
+     margin: 15px 40px;
+     opacity: 1;
+     
+ }
+ #bayside {
      width: 300px;
      margin: 15px 40px;
      opacity: 1;
  }
- .bayside {
-     width: 300px;
-     margin: 15px 40px;
-     opacity: 1;
- }
- .oakdale {
+ #oakdale {
      width: 300px;
      margin: 15px 40px;
      opacity: 1;
@@ -109,4 +110,5 @@ footer {
     height: 200px;
     padding-left: 20px;
     line-height: 50px;
+    margin-top: 10px;
 }
