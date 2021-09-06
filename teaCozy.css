@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    background-color: black;
+}
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+}
+
+/*Header*/
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    max-height: 69px;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    justify-items: space-between;
+    align-items: center;
+    z-index: 1;     /*brings the header to the front of anything ontop of it*/
+}
+
+#mainLogo {
+    margin-left: 10px;
+}
+
+header a {
+    color: seashell;
+    margin-right: 15px;
+}
