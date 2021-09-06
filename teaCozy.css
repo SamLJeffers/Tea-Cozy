@@ -1,8 +1,8 @@
-* {
+*{
     box-sizing: border-box;
+    opacity: 0.9;
     margin: 0;
     padding: 0;
-    opacity: 0.9;
     background-color: black;
 }
 html {
@@ -12,25 +12,100 @@ html {
     color: seashell;
 }
 
-/*Header*/
-
 header {
-    background-color: black;
     position: fixed;
     width: 100%;
-    max-height: 69px;
-    display: flex;
     border-bottom: 1px solid seashell;
-    justify-items: space-between;
+    display:flex;
+    min-height: 69px;
+    justify-content: space-between;
     align-items: center;
-    z-index: 1;     /*brings the header to the front of anything ontop of it*/
+    z-index: 1;
+    background-color: black;
+    opacity: 1;
 }
-
-#mainLogo {
+#logo {
     margin-left: 10px;
 }
-
 header a {
     color: seashell;
     margin-right: 15px;
+}
+main {
+    margin: 0 60px;
+}
+section#ourMission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 100%;
+    padding-bottom: px;
+}
+.mainText {
+    display: inline-block;
+    flex-direction: column;
+    position: absolute;
+    right: 45px;
+    bottom: 500px;
+    width: 100%;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.heading {
+    padding-top: 65px;
+
+}
+
+section#teaPictures {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 300px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+ figure img {
+     height: 200px;
+     width: 300px;
+     margin: 10px;
+ }
+ section#locations {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-content: center;
+     align-items: baseline;
+     flex-wrap: wrap;
+     background-image: url("img-locations-background.webp");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 500px;
+     width: 100%;
+     line-height: 65px;
+ }
+ .downtown {
+     width: 300px;
+     margin: 15px 40px;
+     opacity: 1;
+ }
+ .bayside {
+     width: 300px;
+     margin: 15px 40px;
+     opacity: 1;
+ }
+ .oakdale {
+     width: 300px;
+     margin: 15px 40px;
+     opacity: 1;
+ }
+footer {
+    height: 200px;
+    padding-left: 20px;
+    line-height: 50px;
 }
